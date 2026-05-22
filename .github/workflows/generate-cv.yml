@@ -23,7 +23,7 @@ jobs:
         run: node index.js
 
       - name: Upload CV
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Grace-CV
           path: Grace_Ndungu_Denri_Sales_CV.docx
