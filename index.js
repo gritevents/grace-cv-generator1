@@ -272,6 +272,6 @@ const doc = new Document({
 });
 
 Packer.toBuffer(doc).then(buf => {
-  fs.writeFileSync('/home/claude/Grace_Ndungu_Denri_Sales_CV.docx', buf);
+  fs.writeFileSync('Grace_Ndungu_Denri_Sales_CV.docx', buf);
   console.log('Done');
 });
