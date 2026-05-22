@@ -1,0 +1,12 @@
+{
+  "name": "grace-cv-generator",
+  "version": "1.0.0",
+  "description": "Generate Grace Ndungu CV",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "docx": "^8.0.0"
+  }
+}
